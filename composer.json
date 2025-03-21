@@ -1,5 +1,5 @@
 {
-    "name": "kho8k/crawler",
+    "name": "filament8k/crawler",
     "description": "Gói cào phim dành cho Filament CMS",
     "type": "package",
     "require": {
