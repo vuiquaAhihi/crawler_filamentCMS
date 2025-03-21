@@ -1,0 +1,29 @@
+{
+    "name": "kho8k/crawler",
+    "description": "Gói cào phim dành cho Filament CMS",
+    "type": "package",
+    "require": {
+        "php": ">=8.0",
+        "intervention/image": "^3.0",
+        "filament/filament": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kho8k\\Crawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khophim8k",
+            "email": "khophim8k.dev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kho8k\\Crawler\\CrawlerServiceProvider"
+            ]
+        }
+    }
+}
