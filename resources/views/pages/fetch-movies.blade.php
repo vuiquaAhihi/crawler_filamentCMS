@@ -1,4 +1,4 @@
-@extends('kho8k-crawler::filament.pages.fetch-movies')
+@extends('filament8k::filament.pages.fetch-movies')
 
 <x-filament-panels::page>
     <div class="p-6">
